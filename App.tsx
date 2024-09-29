@@ -6,19 +6,23 @@ import FancyCard from './componenets/FancyCard';
 import BlogCard from './componenets/BlogCard';
 import ContactList from './componenets/ContactList';
 import PasswordGenerator from './componenets/PasswordGenerator';
+import Pizza from './componenets/Pizza';
+import BackgroundColorChanger from './componenets/BackgroundColorChanger';
 
 const App = () => {
   return (
-    <SafeAreaView>
-      <ScrollView>
+    <>
+      <>
         {/* <FlatCards />
         <ElevatedCard />
         <FancyCard />
         <ContactList />
         <BlogCard /> */}
-        <PasswordGenerator />
-      </ScrollView>
-    </SafeAreaView>
+        {/* <PasswordGenerator /> */}
+        {/* <Pizza /> */}
+        <BackgroundColorChanger />
+      </>
+    </>
   );
 };
 
